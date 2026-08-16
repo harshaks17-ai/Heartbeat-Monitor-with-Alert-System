@@ -6,6 +6,7 @@
  *   -> drive buzzer/LEDs -> update OLED -> print to Serial Monitor.
  *
  * EDUCATIONAL PROTOTYPE - NOT A MEDICAL DEVICE.
+ * Author: Harsha K S
  */
 #include "Heartbeat.h"
 

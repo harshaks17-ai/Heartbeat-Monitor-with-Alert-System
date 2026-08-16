@@ -2,6 +2,8 @@
 
 > **Embedded Systems Course Project** — Arduino / ESP32 based heart-rate monitoring prototype with BPM calculation, OLED display, and threshold-based buzzer/LED alerts.
 
+**Author:** Harsha K S
+
 [![Embedded](https://img.shields.io/badge/embedded-C/Arduino-blue)](https://www.arduino.cc/)
 [![Sim](https://img.shields.io/badge/simulation-Wokwi-green)](https://wokwi.com)
 ![License](https://img.shields.io/badge/license-MIT-green)

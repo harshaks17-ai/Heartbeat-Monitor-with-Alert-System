@@ -2,6 +2,7 @@
  * Heartbeat Monitor with Alert System - SINGLE-FILE version (Wokwi friendly).
  * Fully self-contained: no external .h or extra .ino files required.
  * EDUCATIONAL PROTOTYPE - NOT A MEDICAL DEVICE.
+ * Author: Harsha K S
  */
 #include <Arduino.h>
 #include <Wire.h>
