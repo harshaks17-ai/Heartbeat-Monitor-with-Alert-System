@@ -1,0 +1,27 @@
+# Editor / OS
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+.vs/
+.vscode/settings.json
+
+# Arduino / PlatformIO build artifacts
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/
+build/
+*.hex
+*.elf
+*.bin
+*.map
+
+# Python
+__pycache__/
+*.pyc
+
+# Keep folders but ignore local-only junk
+screenshots/*.png
+screenshots/*.jpg
+outputs/*.png

@@ -1,0 +1,5 @@
+[wokwi]
+version = 1
+
+[wokwi.project]
+name = "Heartbeat Monitor with Alert System"

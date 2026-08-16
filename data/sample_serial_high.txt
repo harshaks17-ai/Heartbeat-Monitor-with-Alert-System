@@ -1,0 +1,6 @@
+BPM: 130  Status: HIGH
+BPM: 129  Status: HIGH
+BPM: 131  Status: HIGH
+BPM: 130  Status: HIGH
+BPM: 128  Status: HIGH
+BPM: 130  Status: HIGH

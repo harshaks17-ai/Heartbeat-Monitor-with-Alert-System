@@ -1,0 +1,6 @@
+BPM: 75  Status: NORMAL
+BPM: 75  Status: NORMAL
+BPM: 76  Status: NORMAL
+BPM: 75  Status: NORMAL
+BPM: 75  Status: NORMAL
+BPM: 74  Status: NORMAL

@@ -1,0 +1,6 @@
+BPM: 50  Status: LOW
+BPM: 50  Status: LOW
+BPM: 51  Status: LOW
+BPM: 50  Status: LOW
+BPM: 49  Status: LOW
+BPM: 50  Status: LOW

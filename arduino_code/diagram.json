@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "author": "Heartbeat Monitor Project",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-arduino-uno",
+      "id": "uno",
+      "top": 150,
+      "left": 40
+    },
+    {
+      "type": "board-ssd1306",
+      "id": "oled",
+      "top": 30,
+      "left": 330
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "buzzer",
+      "top": 330,
+      "left": 110
+    },
+    {
+      "type": "wokwi-led",
+      "id": "green",
+      "top": 300,
+      "left": 240,
+      "attrs": {
+        "color": "green"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "red",
+      "top": 300,
+      "left": 400,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 250,
+      "left": 200,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 250,
+      "left": 360,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "pot",
+      "top": 30,
+      "left": 480
+    }
+  ],
+  "connections": [
+    [
+      "uno:5V",
+      "oled:VCC",
+      "red",
+      []
+    ],
+    [
+      "uno:GND.1",
+      "oled:GND",
+      "black",
+      []
+    ],
+    [
+      "uno:A4",
+      "oled:SDA",
+      "blue",
+      []
+    ],
+    [
+      "uno:A5",
+      "oled:SCL",
+      "green",
+      []
+    ],
+    [
+      "uno:8",
+      "buzzer:2",
+      "yellow",
+      []
+    ],
+    [
+      "uno:GND.1",
+      "buzzer:1",
+      "black",
+      []
+    ],
+    [
+      "uno:7",
+      "r1:1",
+      "green",
+      []
+    ],
+    [
+      "r1:2",
+      "green:A",
+      "green",
+      []
+    ],
+    [
+      "uno:GND.2",
+      "green:C",
+      "black",
+      []
+    ],
+    [
+      "uno:6",
+      "r2:1",
+      "red",
+      []
+    ],
+    [
+      "r2:2",
+      "red:A",
+      "red",
+      []
+    ],
+    [
+      "uno:GND.3",
+      "red:C",
+      "black",
+      []
+    ],
+    [
+      "uno:5V",
+      "pot:VCC",
+      "red",
+      []
+    ],
+    [
+      "uno:GND.3",
+      "pot:GND",
+      "black",
+      []
+    ],
+    [
+      "uno:A1",
+      "pot:SIG",
+      "blue",
+      []
+    ]
+  ]
+}
